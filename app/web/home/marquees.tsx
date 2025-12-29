@@ -78,6 +78,9 @@ const Marquees = () => {
             <div className='bg-neutral-100 p-4 transform rotate-2 '>
                 <Marquee pauseOnHover={true} speed={50} gradient={false}>
                     <div className='flex flex-row gap-30'>
+                     <div>
+                        <h1>New Logo</h1>
+                     </div>
                         <div>
                            <Image 
                            src='/logos/api.png'
